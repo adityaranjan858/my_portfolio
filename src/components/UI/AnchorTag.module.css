@@ -1,0 +1,12 @@
+.gen_link{
+    border: 1px transparent #eba920;
+    background-color: #eba920;
+    padding: 0.3rem 1.5rem;
+    border-radius: 2rem;
+    color: red;
+}
+
+  .gen_link:hover{
+    /* background-color: #eba920; */
+    color:white;
+  }
