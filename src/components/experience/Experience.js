@@ -34,10 +34,11 @@ const Experience = () => {
               <p>
                 <span className="text-muted">Years : </span>11/2021 - Present
               </p>
-              <Link to="/projects" className="link_des">
+              <p> <strong>
                 Projects <small className="text-success"> 1 completed</small>
-              </Link>
-            </Card>
+              </strong>
+              </p>
+              </Card>
           </div>
           <div className="col-md-8 col-sm-12 col-12">
             <div className={classes.headline_steps}>
@@ -86,10 +87,10 @@ const Experience = () => {
               <p>
                 <span className="text-muted">Years : </span>11/2020 - 11/2021
               </p>
-              <Link to="/projects" className="link_des">
-                Projects 
-                <small className="text-success"> 3+ completed</small>
-              </Link>
+              <p> <strong>
+                Projects <small className="text-success"> 3+ completed</small>
+              </strong>
+              </p>
             </Card>
           </div>
           <div className="col-md-8 col-sm-12 col-12">

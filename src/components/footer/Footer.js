@@ -14,15 +14,6 @@ const Footer = () => {
             <li><span class="text-muted">Mobile No. : </span>9144154686</li>
             <li><span class="text-muted">Location : </span>Hyderabad</li>
         </ul>
-            <button
-              type="button"
-              className={`btn ${classes.qq_btn} `}
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-bs-whatever="@mdo"
-            >
-              Schedule a Call
-            </button>
             <p className="text-dark">
               <strong><i>AD</i></strong>  stands for Aditya Design.
             </p>

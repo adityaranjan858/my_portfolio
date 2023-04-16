@@ -6,38 +6,11 @@ import abs3 from "../../img/Abstract-03.svg";
 import abs4 from "../../img/Abstract-04.svg";
 import Button from "../UI/Button";
 import me from "../../img/mine.png";
+import pdfFile from '../../pdfFile/aditya_resume.pdf';
 
 const About = () => {
-
-    // const PDF_FILE_URL = "http://localhost:3000/aditya_resume.pdf"
     const downloadPdf = () => {
-      // const fileName = url.split("/").pop(); 
-      // const link = document.createElement('a');
-      // link.href = url;
-      // link.setAttribute('download', fileName);
-      // document.body.appendChild(link);
-      // link.click();
-      // link.remove();
-
-    //   const url = 'http://localhost:3000/aditya_resume.pdf'; // Replace with your PDF file path
-    // const link = document.createElement('a');
-    // link.href = url;
-    // link.setAttribute('download', 'aditya_resume.pdf');
-    // document.body.appendChild(link);
-    // link.click();
-    // link.parentNode.removeChild(link);
-
-    fetch('http://localhost:3000/aditya_resume.pdf').then(response => {
-      response.blob().then(blob => {
-          // Creating new object of PDF file
-          const fileURL = window.URL.createObjectURL(blob);
-          // Setting various property values
-          let alink = document.createElement('a');
-          alink.href = fileURL;
-          alink.download = 'aditya_resume.pdf';
-          alink.click();
-      })
-  })
+    window.open(pdfFile);
     };
   
   
