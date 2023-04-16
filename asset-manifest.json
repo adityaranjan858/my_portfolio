@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.dd48e374.css",
-    "main.js": "/my_portfolio/static/js/main.619f23b1.js",
+    "main.js": "/my_portfolio/static/js/main.ebb58132.js",
     "static/js/787.1ed0c42c.chunk.js": "/my_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/css_c.png": "/my_portfolio/static/media/css_c.b4f9a7ab528fc8d25065.png",
     "static/media/krsFinivia.PNG": "/my_portfolio/static/media/krsFinivia.9fbacaf1d3eb85f5d462.PNG",
     "static/media/newsApp.PNG": "/my_portfolio/static/media/newsApp.7f01f3a481efb62b4800.PNG",
     "static/media/mine.png": "/my_portfolio/static/media/mine.96360ed544468db5f316.png",
+    "static/media/aditya_resume.pdf": "/my_portfolio/static/media/aditya_resume.b9e7e6dda99a026cc50e.pdf",
     "static/media/textUtils.PNG": "/my_portfolio/static/media/textUtils.c363245ef6e41cf32f7b.PNG",
     "static/media/logo.png": "/my_portfolio/static/media/logo.6b1999030b1c87d19d6d.png",
     "static/media/Css.PNG": "/my_portfolio/static/media/Css.12b21fd7bb1331e99b14.PNG",
@@ -22,11 +23,11 @@
     "static/media/Check.svg": "/my_portfolio/static/media/Check.1c2d9c0cdf6ae0e4358ee9e6a7753ef9.svg",
     "static/media/Robe.svg": "/my_portfolio/static/media/Robe.d85dbb87aae608730748e9716549e9ba.svg",
     "main.dd48e374.css.map": "/my_portfolio/static/css/main.dd48e374.css.map",
-    "main.619f23b1.js.map": "/my_portfolio/static/js/main.619f23b1.js.map",
+    "main.ebb58132.js.map": "/my_portfolio/static/js/main.ebb58132.js.map",
     "787.1ed0c42c.chunk.js.map": "/my_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd48e374.css",
-    "static/js/main.619f23b1.js"
+    "static/js/main.ebb58132.js"
   ]
 }
