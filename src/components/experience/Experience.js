@@ -20,19 +20,20 @@ const Experience = () => {
           <div
             className={`col-md-4 col-12 ${classes.card_main} `}
           >
-            <div className={`d-none d-md-block ${classes.robe}`}>
+            <div className={` d-md-block ${classes.robe}`}>
               <img src={conn_arrow} alt="" />
             </div>
+            
             <Card>
               <h5 className="card-title">
                 <span className="text-muted">Position : </span>Software Engineer
               </h5>
               <p className="card-text">
                 <span className="text-muted">Company : </span>HCL Technologies{" "}
-                <small> Hyderabad, Telangana</small>{" "}
+                <small><i>Hyderabad, Telangana</i></small>{" "}
               </p>
               <p>
-                <span className="text-muted">Years : </span>11/2021 - Present
+                <span className="text-muted">Years : </span><i>11/2021 - Present</i> 
               </p>
               <p> <strong>
                 Projects <small className="text-success"> 1 completed</small>
@@ -73,7 +74,7 @@ const Experience = () => {
           <div
             className={`col-md-4 col-12 ${classes.card_main} `}
           >
-            <div className={`d-none d-md-block ${classes.robe}`}>
+            <div className={` d-md-block ${classes.robe}`}>
               <img src={conn_arrow} alt="" />
             </div>
             <Card>
@@ -82,10 +83,10 @@ const Experience = () => {
               </h5>
               <p className="card-text">
                 <span className="text-muted">Company : </span>Crest Infotech{" "}
-                <small> Ahmedabad, Gujarat</small>{" "}
+                <small><i>Ahmedabad, Gujarat</i> </small>{" "}
               </p>
               <p>
-                <span className="text-muted">Years : </span>11/2020 - 11/2021
+                <span className="text-muted">Years : </span><i>11/2020 - 11/2021</i>
               </p>
               <p> <strong>
                 Projects <small className="text-success"> 3+ completed</small>

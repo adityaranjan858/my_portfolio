@@ -5,6 +5,14 @@
 .projects_contents{
     padding: 50px 0;
 }
+/* responsive starts here */
+@media (min-width: 1200px) { 
+    .projects_contents p{
+        height: 130px;
+    }
+}
+/* responsive ends here */
+
 /* .zoom_p{
 overflow: hidden;
 }

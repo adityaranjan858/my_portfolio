@@ -66,4 +66,34 @@
   .headline_content{
       margin-top: 20px;
   }
+.robe{
+    position: absolute;
+    top: 88%;
+    left: 8%;
+    z-index: 12;
+    transform: translate(-98%, -18%);
+    transform: rotate(142deg);
 }
+  
+}
+
+@media (max-width: 575.98px) { 
+    .robe{
+        position: absolute;
+        top: 88%;
+        left: 10%;
+        z-index: 12;
+        transform: translate(-98%, -18%);
+        transform: rotate(142deg);
+    }
+ }
+@media (max-width: 450px) { 
+    .robe{
+        position: absolute;
+        top: 89%;
+        left: 12%;
+        z-index: 12;
+        transform: translate(-98%, -18%);
+        transform: rotate(142deg);
+    }
+ }

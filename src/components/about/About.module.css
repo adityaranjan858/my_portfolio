@@ -3,6 +3,10 @@
   background-color: #fcfcf5;
   position: relative;
 }
+.hero_sec{
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
 .hero_sec img{
   width: 100%;
 }
@@ -112,9 +116,16 @@
   font-weight: bold;
   color: #eba920;
 }
+
+.downld_btn_main{
+  display: flex;
+  justify-content: center;
+}
+
 .downld_btn{
   position: absolute;
   margin-left: 20px;
+  margin-top: 20px;
   z-index: 99;
 }
 
@@ -145,20 +156,39 @@
       font-weight: 700;
       line-height: 1.5;
       letter-spacing: unset;
-      font-size: 35px;
+      font-size: 29px;
   }
   .intro_img{
-    max-width: 310px!important;
+    max-width: 280px!important;
 }
+
 }
 @media (max-width: 767.98px) {
   .hero_title {
       font-size: 42px;
   }
+  .intro_container{
+    text-align: center;
+  }
 }
-@media (max-width: 350px) { 
+
+@media (max-width: 575.98px) { 
+  /* .downld_btn{
+    margin-top: 20px;
+    text-align: center;
+  } */
+  .hero_title {
+    font-size: 35px;
+}
+}
+
+
+ @media (max-width: 350px) { 
   .hero_title span {
       padding: 0 12px 5px;
+  }
+  .intro_item{
+    font-size: 28px;
   }
 }
 /* responsive ends here */

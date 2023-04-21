@@ -16,29 +16,39 @@ const Certifications = () => {
         <img src={abs7} alt="" />
       </div>
       <h1 className="text-center mb-5 heading"> My Achievements & Certifications</h1>
-      <Row>
-        <div className={`  col-4  ${classes.card_main} `}>
+      <Row className="justify-content-center">
+        <div className={` col-xl-4 col-lg-6 my-4 col-12  ${classes.card_main} `}>
           <div className={classes["card-body-certification"]}>
             {/* Button to launch a modal Linkedin HTML Certificate*/}
-            <Button type="button" data-bs-toggle="modal" data-bs-target="#linkedinHtmlC" className={`${classes["card-title"]}  heading`}>HTML Certificate
-            </Button>
             <img id="image" src={html_l_c} alt="" className={classes.img_Width} />
+            <div class={classes.middle}>
+            <span data-bs-toggle="tooltip" data-bs-placement="top" title="Maximize"> <Button type="button" data-bs-toggle="modal" data-bs-target="#linkedinHtmlC" className={`${classes["card-title"]}  heading`}><i class="fas fa-window-maximize"></i>
+            </Button></span>
+            </div>
           </div>
         </div>
-        <div className={`  col-4  ${classes.card_main} `}>
+        <div className={` col-xl-4 col-lg-6 my-4 col-12 ${classes.card_main} `}>
           <div className={classes["card-body-certification"]}>
             {/* Button to launch a modal Linkedin CSS Certificate*/}
-            <Button type="button" data-bs-toggle="modal" data-bs-target="#linkedinCssC" className={`${classes["card-title"]}  heading`}>CSS Certificate
-            </Button>
             <img src={css_l_c} alt="" className={classes.img_Width} />
+            <div class={classes.middle}>
+            <span data-bs-toggle="tooltip" data-bs-placement="top" title="Maximize">
+            <Button type="button" data-bs-toggle="modal" data-bs-target="#linkedinCssC" className={`${classes["card-title"]}  heading`}><i class="fas fa-window-maximize "></i>
+            </Button>
+            </span>
+            </div>
           </div>
         </div>
-        <div className={` col-4 ${classes.card_main} `}>
+        <div className={` col-xl-4 col-lg-6 my-4 col-12 ${classes.card_main} `}>
           <div className={classes["card-body-certification"]}>
             {/* Button to launch a modal HackerRank CSS Certificate*/}
-            <Button type="button" data-bs-toggle="modal" data-bs-target="#HackerRankCssC" className={`${classes["card-title"]}  heading`}>HackerRank CSS Certificate
-            </Button>
             <img src={css_c} alt="" className={classes.img_Width} />
+            <div class={classes.middle}>
+            <span data-bs-toggle="tooltip" data-bs-placement="top" title="Maximize">
+            <Button type="button" data-bs-toggle="modal" data-bs-target="#HackerRankCssC" className={`${classes["card-title"]}  heading`}><i class="fas fa-window-maximize"></i>
+            </Button>
+            </span>
+            </div>
           </div>
         </div>
       </Row>
@@ -48,17 +58,17 @@ const Certifications = () => {
 
 
       {/* Modal HTML LinkedIn*/}
-      <div class="modal fade" id="linkedinHtmlC" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class={`${classes.modalDialogeCertificate} modal-dialog`}>
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">LinkedIn Skill Assessment badge for "HTML"</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div className="modal fade" id="linkedinHtmlC" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div className={`${classes.modalDialogeCertificate} modal-dialog`}>
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="staticBackdropLabel">LinkedIn Skill Assessment badge for "HTML"</h5>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <img id="image" src={html_l_c} alt="" className={classes.modalImg_Width} />
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <Button type="button" data-bs-dismiss="modal">Close</Button>
             </div>
           </div>
@@ -66,17 +76,17 @@ const Certifications = () => {
       </div>
 
       {/* Modal CSS LinkedIn*/}
-      <div class="modal fade" id="linkedinCssC" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class={`${classes.modalDialogeCertificate} modal-dialog`}>
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">LinkedIn Skill Assessment badge for "CSS"</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div className="modal fade" id="linkedinCssC" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div className={`${classes.modalDialogeCertificate} modal-dialog`}>
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="staticBackdropLabel">LinkedIn Skill Assessment badge for "CSS"</h5>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <img id="image" src={css_l_c} alt="" className={classes.modalImg_Width} />
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <Button type="button" data-bs-dismiss="modal">Close</Button>
             </div>
           </div>
@@ -84,17 +94,17 @@ const Certifications = () => {
       </div>
 
       {/* Modal CSS HackerRank*/}
-      <div class="modal fade" id="HackerRankCssC" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class={`${classes.modalDialogeCertificate} modal-dialog`}>
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">HackerRank Skills Certificate for "CSS"</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div className="modal fade" id="HackerRankCssC" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div className={`${classes.modalDialogeCertificate} modal-dialog`}>
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="staticBackdropLabel">HackerRank Skills Certificate for "CSS"</h5>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <img id="image" src={css_c} alt="" className={classes.modalImg_Width} />
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <Button type="button" data-bs-dismiss="modal">Close</Button>
             </div>
           </div>

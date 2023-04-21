@@ -1,44 +1,43 @@
 .section-footer {
-    position: relative;
-    background-color: #b0d3ce;
-    color: #fff;
+  position: relative;
+  background-color: #b0d3ce;
+  color: #fff;
 }
-.footer_img img{
-    object-fit: contain;
+.footer_img img {
+  object-fit: contain;
 }
-.footer_menu_list {    
-    padding-left: 0;
-    margin-top: 20px;
+.footer_menu_list {
+  padding-left: 0;
+  margin-top: 20px;
 }
 .footer_menu_list li {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .footer_menu_list li a {
-    font-weight: 600;
-    color: white;
+  font-weight: 600;
+  color: white;
 }
-.footer_menu_list li a:hover{
-    color: rgb(255, 0, 0);
+.footer_menu_list li a:hover {
+  color: rgb(255, 0, 0);
 }
-.footer_text {    
-    align-self: center;
+.footer_text {
+  align-self: center;
 }
 .footer_text .hero_title {
-    line-height: 1;
+  line-height: 1;
 }
 .qq_btn {
-    background-color: #000;
-    color: white;
-    border-radius: 25px;
-    padding: 10px 30px;
+  background-color: #000;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 30px;
 }
 
-.address{
+.address {
   padding-left: 0;
   color: black;
 }
-
 
 *,
 *:before,
@@ -72,13 +71,26 @@ body {
   letter-spacing: 0.01em;
 }
 
+/* responsive starts here */
+@media (max-width: 575.98px) {
+  .footer_text {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_heading {
+    text-align: center;
+  }
+}
+
+/* responsive ends here */
+
 /*--------------------------------------------------------------
 	10. Social
 --------------------------------------------------------------*/
 .basr-social-share {
-    display: block;
-    text-align: center;
-    padding: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 0 auto;
 }
 
 .social ul {
@@ -110,11 +122,14 @@ body {
   margin-right: 10px;
 }
 .social ul li:before {
-  content: '';
+  content: "";
   border-radius: 50%;
-  -webkit-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
-  -ms-box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
-  box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
+  -webkit-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28),
+    0px 0px 0px 2px rgba(149, 90, 42, 0.28);
+  -ms-box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28),
+    0px 0px 0px 2px rgba(149, 90, 42, 0.28);
+  box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28),
+    0px 0px 0px 2px rgba(149, 90, 42, 0.28);
   display: block;
   position: absolute;
   top: 50%;
@@ -145,9 +160,12 @@ body {
   transition: all 0.3s ease 0s;
 }
 .social ul li:hover:before {
-  -webkit-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
-  -ms-box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
-  box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
+  -webkit-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28),
+    0px 0px 0px 2px rgba(163, 54, 41, 0.28);
+  -ms-box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28),
+    0px 0px 0px 2px rgba(163, 54, 41, 0.28);
+  box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28),
+    0px 0px 0px 2px rgba(163, 54, 41, 0.28);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -185,8 +203,8 @@ body {
   }
 }
 .social ul li a:before {
-  content: '';
-  background-image: url('https://img.picload.org/image/dcocwcga/border-social-hover.png');
+  content: "";
+  background-image: url("https://img.picload.org/image/dcocwcga/border-social-hover.png");
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -213,8 +231,8 @@ body {
   }
 }
 .social ul li a:after {
-  content: '';
-  background-image: url('https://img.picload.org/image/dcocwcgd/border-social.png');
+  content: "";
+  background-image: url("https://img.picload.org/image/dcocwcgd/border-social.png");
   border-radius: 50%;
   display: block;
   position: absolute;

@@ -6,30 +6,32 @@ const Footer = () => {
   return (
     <footer id="contacts" className={`pt-5 ${classes["section-footer"]}`}>
       <div className="container ">
-        <div className="row">
-          <div className={`col-md-4 col-12 ${classes.footer_text}`}>
-            <h1 className="hero_title heading">Get in Touch</h1>
-            <ul className={classes.address}>
-            <li><span class="text-muted">Email : </span>adityaranjan858@gmail.com</li>
-            <li><span class="text-muted">Mobile No. : </span>9144154686</li>
-            <li><span class="text-muted">Location : </span>Hyderabad</li>
-        </ul>
-            <p className="text-dark">
-              <strong><i>AD</i></strong>  stands for Aditya Design.
-            </p>
+        <h1 className={`hero_title heading ${classes.footer_heading}`}>Get in Touch</h1>
+        <div className="row justify-content-center">
+          <div className={`col-md-4 col-sm-12 col-12 d-sm-flex d-md-block justify-content-sm-between align-items-center ${classes.footer_text}`}>
+            <div>
+              <ul className={classes.address}>
+                <li><span className="text-muted">Email : </span>adityaranjan858@gmail.com</li>
+                <li><span className="text-muted">Mobile No. : </span>9144154686</li>
+                <li><span className="text-muted">Location : </span>Hyderabad</li>
+              </ul>
+              <p className="text-dark">
+                <strong><i>AD</i></strong>  stands for Aditya Design.
+              </p>
+            </div>
 
             <div className={`${classes['basr-social-share']} ${classes.social}`}>
               <ul className="">
                 <li>
                   <a className={classes.facebook} target="_blank" href="https://www.facebook.com/adityaranjan858/">
-                  <i className="fab fa-facebook-f"></i>
+                    <i className="fab fa-facebook-f"></i>
                     <span>Facebook</span>
                   </a>
                 </li>
 
                 <li>
                   <a className={classes.twitter} target="_blank" href="https://api.whatsapp.com/send?phone=9144154686&text=Please%20Contact%20Me">
-                  <i class="fab fa-whatsapp"></i>
+                    <i className="fab fa-whatsapp"></i>
                     <span>WhatsApp</span>
                   </a>
                 </li>
@@ -44,7 +46,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className={`col-md-8 col-12 ${classes.footer_img}`}>
+          <div className={`col-md-8 col-12 d-none d-md-block ${classes.footer_img}`}>
             <img src={illustration_contact} alt="" />
           </div>
           <p className='text-center text-dark mb-0'>

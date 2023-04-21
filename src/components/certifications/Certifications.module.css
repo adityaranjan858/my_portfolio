@@ -11,6 +11,7 @@
     bottom: 17%;
     position: absolute;
     right: 0;
+    z-index: -1;
 }
 .card-title {
     margin-bottom: .5rem;
@@ -18,6 +19,9 @@
 }
 .img_Width{
     object-fit: contain;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
 }
 .card-body-certification {
     flex: 1 1 auto;
@@ -25,10 +29,35 @@
     align-items: center;
     display: flex;
     flex-direction: column-reverse;
+    position: relative;
 }
-
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card-body-certification:hover .img_Width {
+    opacity: 0.3;
+  }
+  
+  .card-body-certification:hover .middle {
+    opacity: 1;
+  }
 .modalDialogeCertificate{
     max-width: 1000px;
 }
 
+/* Responsive starts here */
+@media (max-width: 480px) { 
+    .img_Width{
+        object-fit: cover;
+    }
+}
+/* Responsive ends here */
 

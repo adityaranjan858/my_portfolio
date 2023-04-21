@@ -16,12 +16,12 @@ const About = () => {
   
   return (
     <div className={classes.hero_container} id="about">
-      <div className={`container ${classes.hero_sec} py-5`}>
+      <div className={`container ${classes.hero_sec} `}>
         <div className="row">
-          <div className="col-md-6">
+          <div className={`${classes.intro_container} col-md-6`}>
             <h1 className={`${classes.hero_title} display-5`}>
-              Hello,
-              <br /> I am <span>Aditya Ranjan</span>
+              Hello, <div className="d-inline d-sm-inline d-md-none">I am</div> 
+              <br /> <div className="d-inline d-none d-sm-none d-md-inline ">I am</div>  <span>Aditya Ranjan</span>
             </h1>
             <div className={classes.intro_title}>
               <div className={classes.intro_wrapper}>
@@ -38,7 +38,9 @@ const About = () => {
               </div>
               <div className={classes.headline_shape}></div>
             </div>
-            <Button onClick={downloadPdf} className={`mt-4 ${classes.downld_btn}`}>Download CV</Button>
+            <div className={` ${classes.downld_btn_main}`}>
+            <Button onClick={downloadPdf} className={` ${classes.downld_btn}`}>Download CV</Button>
+            </div>
           </div>
           <div className={`col-md-6 ${classes.hero_img} d-none d-md-block`}>
             <img src={hero_illustration} alt="" className={classes.hero_img_illustration}/>

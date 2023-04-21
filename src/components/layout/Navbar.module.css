@@ -106,29 +106,35 @@ li > a:only-child:after { content: ''; }
 /* Main Navbar section ends here */
 
 /* responsive starts here */
+
+@media (max-width: 1199.98px) { 
+    .qq_btn {
+        margin-left: 18px;
+        padding: 7px 20px;
+    }
+ }
+
 @media (max-width: 767.98px) {
     .nav_buttons{
         justify-content: space-between!important;
-        width: 100%;
     }
     .qq_btn{
       margin-left: 0;
     }
-    .navbar_toggle_btn{
+    /* .navbar_toggle_btn{
         margin-left: 0;
-    }
+    } */
 }
 
 @media (max-width: 420px) { 
     .nav_buttons{        
         flex-wrap: wrap;
-        justify-content: space-around!important;
     }
 }
 
-@media (max-width: 350px) { 
-    .navbar_toggle_btn{
-        margin-top: 15px;
+@media (max-width: 380px) { 
+    .nav_buttons{       
+        width: 100%;
     }
 }
 /* responsive ends here */
